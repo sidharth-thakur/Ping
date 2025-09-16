@@ -1,0 +1,17 @@
+<div class="game-container">
+  <div class="game-header">
+    <h1>Ping Pong Game</h1>
+    <div class="controls">
+      <button (click)="togglePause()">{{ gameRunning ? 'Pause' : 'Resume' }}</button>
+      <button (click)="resetGame()">Reset</button>
+    </div>
+  </div>
+  
+  <div class="game-area">
+    <canvas id="gameCanvas"></canvas>
+  </div>
+  
+  <div class="instructions">
+    <p><strong>Player 1:</strong> W/S keys | <strong>Player 2:</strong> Arrow keys | <strong>Pause:</strong> Spacebar</p>
+  </div>
+</div>

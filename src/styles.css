@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add this font by linking it in your index.html head, or import here */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background-color: #1e1e1e;
+  color: white;
+  font-family: 'Press Start 2P', cursive; /* A classic game font */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  text-align: center;
+}
