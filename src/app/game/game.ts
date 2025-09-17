@@ -34,7 +34,7 @@ export class Game implements OnInit, OnDestroy {
   // Speed management properties
   baseSpeed = 5;
   currentSpeedMultiplier = 1.0;
-  maxSpeedMultiplier = 3.0; // Increased max speed
+  maxSpeedMultiplier = 3.5; // Increased max speed
   speedIncreaseInterval = 3000; // Changed to 3 seconds
   lastSpeedIncreaseTime = 0;
   gameStartTime = 0;
